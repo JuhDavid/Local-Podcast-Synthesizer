@@ -34,29 +34,16 @@ project/
 
 ## 🔧 Installation
 
-1. **Clone the Repository:**
+1. **Clone the Repository**
 
-   ```bash
-   git clone https://github.com/yourusername/localai-podcast-synthesizer.git
-   cd localai-podcast-synthesizer
-   ```
 
-2. **Set Up a Virtual Environment (optional but recommended):**
+2. **Set Up a Virtual Environment**
 
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows, use: venv\Scripts\activate
-   ```
 
-3. **Install Dependencies:**
+3. **Install Dependencies**
 
-   Ensure you have the required Python libraries installed:
 
-   ```bash
-   pip install PyPDF2 ollama
-   ```
-
-4. **Download Piper:**
+4. **Download Piper**
 
    Download Piper and your desired models/config files from the [Piper Releases](https://github.com/rhasspy/piper/releases) page, and place them in your designated Piper directory.
 
@@ -64,18 +51,14 @@ project/
 
 ## ⚙️ Usage
 
-Run the main script and follow the on-screen prompts:
-
-```bash
-python main.py
-```
+Run the main script and follow the on-screen prompts
 
 You'll be asked for:
 - The **PDF file path** (your Podcast Delivery File).
 - The **Piper directory** (where `piper.exe`, the model, and config files reside).
-- The **Piper model filename** (e.g., `hu_HU-berta-medium.onnx`).
-- The **Piper config filename** (e.g., `hu_HU-berta-medium.onnx.json`).
-- The **Local AI model name** (e.g., `localai-R1:1.5b`).
+- The **Piper model filename** (e.g., `en_US-amy-medium.onnx`).
+- The **Piper config filename** (e.g., `en_US-amy-medium.onnx.json`).
+- The **local AI model name** (e.g., `deepseek-R1:1.5b`).
 - A **title for your audio file** (without extension).
 
 Watch as your PDF transforms into an engaging podcast script and then into a polished audio file!
@@ -98,4 +81,4 @@ Contributions are welcome! Feel free to fork this repository and submit pull req
 ---
 
 Happy Podcasting! 🎧✨
-```
+
